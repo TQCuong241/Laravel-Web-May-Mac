@@ -94,6 +94,11 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
                       </svg>
                     </button>
+                    @if($item->quantity > $item->product->stock_quantity)
+                      <div class="text-red-600 text-sm mt-1">
+                        Chỉ còn {{ $item->product->stock_quantity }} sản phẩm "{{ $item->product->name }}" trong kho
+                      </div>
+                    @endif
                   </form>
                 </td>
                 
@@ -206,18 +211,28 @@
             </button>
           </form>
           
-          <form action="{{ route('payment.redirect') }}" method="POST">
-            @csrf
-            <input type="hidden" name="total" value="{{ $total }}">
-            <button type="submit"
-                    class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition flex items-center justify-center">
-              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
-              </svg>
-              Thanh toán
-            </button>
-          </form>
+        @php
+          $outOfStock = $items->first(fn($it) => $it->quantity > $it->product->stock_quantity);
+        @endphp
+
+        <form action="{{ route('payment.redirect') }}" method="POST">
+          @csrf
+          <input type="hidden" name="total" value="{{ $total }}">
+          <button
+            type="submit"
+            @if($outOfStock) disabled @endif
+            class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition">
+            Thanh toán
+          </button>
+        </form>
+
+        @if($outOfStock)
+          <p class="text-red-600 text-center mt-2">
+            Không thể thanh toán vì sản phẩm 
+            "<strong>{{ $outOfStock->product->name }}</strong>" vượt quá tồn kho.
+          </p>
+        @endif
+
 
         </div>
         
