@@ -40,14 +40,17 @@ php artisan migrate
 
 ### 4. Thiết lập liên kết storage (Symlink):
 
-    Trên Windows:
-        ```
-        rmdir public\storage
-        ```
-    Trên Linux/macOS:
-        ```
-        rm public/storage
-        ```
+ Trên Windows:
+
+```
+rmdir public\storage
+```
+
+Trên Linux/macOS:
+
+```
+rm public/storage
+```
 
 Tạo liên kết mới:
 ```
