@@ -1,4 +1,3 @@
-{{-- resources/views/admin/sizes/create.blade.php --}}
 <x-layouts.admin>
   <div class="bg-white p-6 rounded-lg shadow-xl">
     <h3 class="text-lg font-semibold mb-4">Thêm Size mới</h3>

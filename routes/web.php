@@ -11,6 +11,8 @@ use App\Http\Controllers\OrderController;            // <-- User-OrderController
 use App\Http\Controllers\Admin\ProductController as AdminProductController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\SizeController;
+use App\Http\Controllers\Admin\DashboardController;
+
 use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\Admin\OrderController as AdminOrderController;  // <-- alias!
 use App\Http\Controllers\Admin\RecruitmentController;
@@ -30,7 +32,8 @@ Route::middleware(['auth:sanctum','admin'])
      ->name('admin.')
      ->group(function () {
          // Dashboard
-         Route::get('/', fn() => view('admin.admin'))->name('admin');
+         Route::get('/', [DashboardController::class, 'index'])
+              ->name('admin');
 
          // CRUD Products, Sizes, Categories
          Route::resource('products',  AdminProductController::class);

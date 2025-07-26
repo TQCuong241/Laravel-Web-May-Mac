@@ -1,4 +1,3 @@
-{{-- File: resources/views/admin/products/edit.blade.php --}}
 <x-layouts.admin>
     <div class="bg-white p-6 rounded-lg shadow-xl">
         <h3 class="text-lg font-semibold mb-6">Chỉnh sửa Sản phẩm</h3>
