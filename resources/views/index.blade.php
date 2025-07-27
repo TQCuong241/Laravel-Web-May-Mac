@@ -11,17 +11,17 @@
                     Khám phá những bộ sưu tập thời trang độc đáo, tôn vinh vẻ đẹp của bạn với phong cách đẳng cấp.
                 </p>
                 <div class="hero-buttons flex flex-col sm:flex-row gap-4">
-                    <a href="#collections" class="btn-primary px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition duration-300 text-center font-medium">
+                    <a href="#" class="btn-primary px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition duration-300 text-center font-medium">
                         Xem bộ sưu tập
                     </a>
-                    <a href="/lien-he" class="btn-secondary px-8 py-3 border-2 border-black text-black rounded-full hover:bg-gray-100 transition duration-300 text-center font-medium">
+                    <a href="#" class="btn-secondary px-8 py-3 border-2 border-black text-black rounded-full hover:bg-gray-100 transition duration-300 text-center font-medium">
                         Liên hệ tư vấn
                     </a>
                 </div>
             </div>
             <div class="hero-image lg:w-1/2 mt-12 lg:mt-0 relative">
                 <div class="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent z-0 lg:hidden"></div>
-                <img src="https://i.pinimg.com/736x/0b/75/87/0b758729c7492f41b14be27ab482dbc0.jpg" 
+                <img src="https://i.pinimg.com/736x/bd/55/24/bd5524f254c1a4785d0414810b5dcd0f.jpg" 
                      alt="Người mẫu trình diễn thời trang"
                      class="w-full h-auto rounded-lg shadow-2xl relative z-10 object-cover">
             </div>
@@ -124,7 +124,7 @@
                         <p class="text-gray-700 mb-6">
                             Từ một xưởng may nhỏ năm 2010, chúng tôi đã không ngừng phát triển để trở thành thương hiệu thời trang cao cấp hàng đầu Việt Nam, được giới mộ điệu đánh giá cao cả về chất lượng và phong cách.
                         </p>
-                        <a href="/ve-chung-toi" class="inline-flex items-center text-gold-600 hover:text-gold-800 font-medium">
+                        <a href="#" class="inline-flex items-center text-gold-600 hover:text-gold-800 font-medium">
                             Khám phá câu chuyện của chúng tôi
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -157,7 +157,7 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-6">
                         <h3 class="text-2xl font-bold text-white mb-2">Thu Đông 2023</h3>
                         <p class="text-gray-200 mb-4">Tông màu trầm ấm với chất liệu len cao cấp</p>
-                        <a href="/collections/thu-dong-2023" class="text-white font-medium inline-flex items-center">
+                        <a href="#" class="text-white font-medium inline-flex items-center">
                             Xem bộ sưu tập
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -174,7 +174,7 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-6">
                         <h3 class="text-2xl font-bold text-white mb-2">Phong cách công sở</h3>
                         <p class="text-gray-200 mb-4">Thanh lịch - Chuyên nghiệp - Đẳng cấp</p>
-                        <a href="/collections/cong-so" class="text-white font-medium inline-flex items-center">
+                        <a href="#" class="text-white font-medium inline-flex items-center">
                             Xem bộ sưu tập
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -191,7 +191,7 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-6">
                         <h3 class="text-2xl font-bold text-white mb-2">Dạ hội sang trọng</h3>
                         <p class="text-gray-200 mb-4">Lấp lánh và quyến rũ cho những sự kiện đặc biệt</p>
-                        <a href="/collections/da-hoi" class="text-white font-medium inline-flex items-center">
+                        <a href="#" class="text-white font-medium inline-flex items-center">
                             Xem bộ sưu tập
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -202,7 +202,7 @@
             </div>
             
             <div class="text-center mt-12">
-                <a href="/collections" class="inline-flex items-center px-8 py-3 border border-black text-black rounded-full hover:bg-gray-100 transition duration-300 font-medium">
+                <a href="#" class="inline-flex items-center px-8 py-3 border border-black text-black rounded-full hover:bg-gray-100 transition duration-300 font-medium">
                     Xem tất cả bộ sưu tập
                 </a>
             </div>
